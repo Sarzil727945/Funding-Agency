@@ -1,0 +1,238 @@
+/* Basic css part start */
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body,p,span{
+        font-family: 'Roboto', sans-serif;
+    }
+    h1,h2,h3,h4,h5,h6,a{
+        font-family: 'Rubik',sans-serif;
+    }
+               
+/* Basic css part ends */
+
+/* navber css part start */
+
+    .nav1-1 a:hover{
+        border-bottom: 2px solid red;
+    }
+    .search{
+        border-right: 1px solid red;
+        padding-right: 10px;
+    }
+    .call{
+        color: red;
+        font-size: 40px;
+    }
+
+/* navber css part ends */
+
+/* section1 css part start */
+
+    .section1{
+        background: url(../images/bgimages.jpg) no-repeat top center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    @media (min-width: 1024px){
+        .section1{
+            background-attachment: fixed;
+        }
+    }
+    
+    
+    @media (max-width: 720px){
+        .section1{
+            background: url(../images/sarzil.jpeg) no-repeat top center;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+            background-attachment: fixed;
+        }
+    }
+    .section1-1{
+        margin-top: 250px;
+    }
+    .section1-2{
+        list-style: none;
+        margin-left: -32px;
+        margin-top: 111px;
+    }
+
+    @media(max-width:720px ){
+        .section1-2{
+            margin-top: 25px;
+        }
+    }
+    .section1-2 li a{
+        padding: 0px 15px;
+        font-size: 20px;
+        color: black;
+    }
+    .section1-2 li a i:hover{
+        color: red;
+    }
+
+/* section1 css part ends */
+
+/* section2 css part stars */
+    .section2{
+        margin: 5px 0px;
+    }
+    .section2-2{
+        padding: 25px 0px;
+    }
+    .section2-2 li i{
+        font-size: 25px;
+        padding-right: 5px;
+        color: red;
+        text-align: center;
+    }
+    .img2{
+        position: relative;
+        bottom: 180px;
+        float: right;
+    }
+    .imghb{
+        text-align: center;
+        position: relative;
+        bottom: 133px;
+        left: 180px;
+        float: right;
+    }
+    @media(max-width:720px ){
+        .img2{
+            position: relative;
+            top: -120px;
+        }
+        .imghb{
+            left: -26px;
+            bottom: 280px;
+        }
+    }
+    @media(max-width:720px ){
+       .phone{
+        margin-top: -200px;
+       }
+    }
+/* section2 css part ends */
+
+/* section3 css part starts */
+
+    .section3-1 i{
+        position: relative;
+        font-size: 30px;
+        background: #ddd;
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        border-radius: 50%;
+    }
+    .section3-1 i:hover{
+        background: hsl(196, 88%, 40%);
+    }
+    .font-s{
+        font-size: 50px;
+    }
+    .section3-2{
+        height: 285px;
+        top: 0px;
+    }
+    .section3-2:hover{
+        top: 20px;  
+        height: 280px;
+        transition: 0.5s all linear;
+    }
+    .section3-3{
+        position: relative;
+        font-size: 60px;
+        color: #e73e3e;
+        border-radius: 50%;
+        bottom: 154px;
+        left: 423px;
+    }
+    @media(max-width:1000px ){
+        .section3-3{
+            position: relative;
+            font-size: 60px;
+            color: #e73e3e;
+            border-radius: 50%;
+            bottom: 154px;
+            left: 0px;
+        }
+    }
+    .section3-3 .ss::before{
+        animation: palybtn 1.6s ease-out infinite ;
+    }
+    @keyframes palybtn{
+        0%,30%{
+            transform: scale(0);
+            opacity: 1;
+        }
+        50%{
+            transform: scale(1.5);
+            opacity: .7;
+        }
+        100%{
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+
+    @media(max-width:720px ){
+        .tophon{
+            margin-top: 20px;
+        }
+     }
+/* section3 css part ends */
+
+/* section4 css part starts */
+
+    .section4{
+        border-top: 5px solid #b0b0b0; 
+        width: 100%;
+        background: #188EC8;
+    }
+    .section4 h2{
+        font-size: 40px;
+        color: rgb(0, 255, 157);
+    }
+    .section4 img{
+        border-radius: 50%;
+    }
+    .pboder{
+        position: relative;
+        border-bottom: 2px solid red;
+    }
+/* section4 css part ends */
+
+/* footer css part style */
+    .footer{
+        background: #1B2B4D;
+    }
+   .sm h2{
+    width: 220px;
+    border-bottom: 4px solid white;
+   }
+   .skk i:hover{
+    color: red !important;
+   }
+    .sk span:hover{
+        color: #e73e3e !important;
+    }
+    .sakm{
+        border-radius: 50%;
+    }
+    .sa {
+        width: 50px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .sa i:hover{
+        color: #e73e3e !important;
+
+    }
+/* footer css part ends */

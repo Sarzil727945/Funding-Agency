@@ -1,0 +1,73 @@
+/* Basic css part start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik',sans-serif;
+}
+           
+/* Basic css part ends */
+
+/* navber css part start */
+
+.nav1-1 a:hover{
+    border-bottom: 2px solid red;
+}
+.search{
+    border-right: 1px solid red;
+    padding-right: 10px;
+}
+.call{
+    color: red;
+    font-size: 40px;
+}
+
+/* navber css part ends */
+
+/* form css part start */
+
+    .form{
+        margin-top: 100px;
+    }
+   
+    .table tr td{
+        padding: 20px 20px;
+    }
+    .output_table tr td{
+        padding: 15px 25px;
+    }
+
+/* form css part ends */
+
+/* footer css part style */
+.footer{
+    background: #1B2B4D;
+}
+.sm h2{
+width: 220px;
+border-bottom: 4px solid white;
+}
+.skk i:hover{
+color: red !important;
+}
+.sk span:hover{
+    color: #e73e3e !important;
+}
+.sakm{
+    border-radius: 50%;
+}
+.sa {
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.sa i:hover{
+    color: #e73e3e !important;
+
+}
+/* footer css part ends */
